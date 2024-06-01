@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
+
+body {
+    background-color: #010101cc;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+}
+
+#container {
+    max-width: 720px;
+    margin: auto;
+}
+
+#content { 
+    text-align: center;
+}
+
+#content img {
+    width: 250px;
+}
+
+#content-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#content-video iframe {
+    width: 720px;
+    height: 405px;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
